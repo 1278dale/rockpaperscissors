@@ -6,8 +6,9 @@ require 'player.rb'
 
 describe Player do
 
+    let(:player) { Player.new('dale')}
+
   it 'should be initialized with a name' do
-    player = Player.new
-    expect(player.name).to eq 'dale'
+  expect(player.name).to eq 'dale'
   end
 end

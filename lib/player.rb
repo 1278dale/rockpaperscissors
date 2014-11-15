@@ -14,7 +14,7 @@ class Player
 
   def initialize(name)
     @name = name
-    @choice = nil
+    @choice = false
   end
 
   def choose(choice)
